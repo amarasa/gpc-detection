@@ -2,7 +2,7 @@
 /*
 Plugin Name: GPC Detection
 Description: A plugin to detect and handle Global Privacy Control (GPC) signals.
-Version: 1.0
+Version: 1.0.1
 Plugin URI: https://github.com/amarasa/gpc-detection
 Author: Angelo Marasa
 */
