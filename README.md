@@ -9,16 +9,19 @@ This plugin provides a settings page where administrators can choose to block Go
 ## Installation
 
 1. **Download the Plugin:**
-   - Clone the repository or download the ZIP file.
+
+    - Clone the repository or download the ZIP file.
 
 2. **Upload to WordPress:**
-   - Upload the plugin files to the `/wp-content/plugins/gpc-detection` directory, or install the plugin through the WordPress plugins screen directly.
+
+    - Upload the plugin files to the `/wp-content/plugins/gpc-detection` directory, or install the plugin through the WordPress plugins screen directly.
 
 3. **Activate the Plugin:**
-   - Activate the plugin through the 'Plugins' screen in WordPress.
+
+    - Activate the plugin through the 'Plugins' screen in WordPress.
 
 4. **Configure the Settings:**
-   - Navigate to `Settings > GPC Detection` to configure the plugin.
+    - Navigate to `Settings > GPC Detection` to configure the plugin.
 
 ## Usage
 
@@ -26,8 +29,8 @@ This plugin provides a settings page where administrators can choose to block Go
 
 The settings page provides options to block Google Analytics and Facebook Pixel tracking scripts:
 
-- **Block Google Analytics:** Toggle this setting to enable or disable blocking of Google Analytics.
-- **Block Facebook Pixel:** Toggle this setting to enable or disable blocking of Facebook Pixel.
+-   **Block Google Analytics:** Toggle this setting to enable or disable blocking of Google Analytics.
+-   **Block Facebook Pixel:** Toggle this setting to enable or disable blocking of Facebook Pixel.
 
 ### Toggle Switch Styling
 
@@ -49,16 +52,16 @@ The main plugin file (`gpc-detection.php`) includes all the necessary functions 
 
 ## Files
 
-- `gpc-detection.php`: Main plugin file.
-- `js/gpc-detection.js`: JavaScript file for blocking logic.
-- `css/toggle-switch.css`: CSS file for toggle switch styling.
-- `includes/updater.php`: Include file for plugin updates (if applicable).
+-   `gpc-detection.php`: Main plugin file.
+-   `js/gpc-detection.js`: JavaScript file for blocking logic.
+-   `css/toggle-switch.css`: CSS file for toggle switch styling.
+-   `includes/updater.php`: Include file for plugin updates (if applicable).
 
 ## Screenshots
 
 ### Settings Page
 
-![Settings Page](screenshots/settings-page.png)
+![Settings Page](screenshots/settings-page-ss.png)
 
 ## License
 
@@ -66,9 +69,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 ## Author
 
-- **Angelo Marasa**
+-   **Angelo Marasa**
 
 ## Acknowledgments
 
-- Special thanks to the contributors and the WordPress community for their support and guidance.
-
+-   Special thanks to the contributors and the WordPress community for their support and guidance.
