@@ -6,7 +6,9 @@ Version: 1.0.3
 Plugin URI: https://github.com/amarasa/gpc-detection
 Author: Angelo Marasa
 */
-require_once plugin_dir_path(__FILE__) . 'includes/require 'puc/plugin-update-checker.php';
+/* -------------------------------------------------------------------------------------- */
+// Updated
+require 'puc/plugin-update-checker.php';
 
 use YahnisElsts\PluginUpdateChecker\v5\PucFactory;
 
@@ -16,9 +18,14 @@ $myUpdateChecker = PucFactory::buildUpdateChecker(
     'gpc-detection-plugin'
 );
 
-// Optional: If you're using a private repository, specify the access token like this:
+//Set the branch that contains the stable release.
+//$myUpdateChecker->setBranch('stable-branch-name');
+
+//Optional: If you're using a private repository, specify the access token like this:
 // $myUpdateChecker->setAuthentication('your-token-here');
-.php';
+
+/* -------------------------------------------------------------------------------------- */
+
 
 function enqueue_gpc_script()
 {
